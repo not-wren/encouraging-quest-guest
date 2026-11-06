@@ -2,8 +2,23 @@
     color: rgb(3, 3, 48);
     background-color: rgb(252, 236, 252);
     text-align: center;
-    
 }
 body{
     
+}
+img{
+    min-width: 20px;
+    max-width: 80px;
+}
+#cafe{
+    min-width: 100px;
+    max-width: 250px;
+}
+#ware{
+    min-width: 100px;
+    max-width: 240px;
+}
+#flower{
+    min-width: 100px;
+    max-width: 200px;
 }

@@ -6,8 +6,17 @@
     </head>
     <body>
         <h3>pretty flowers</h3>
+        <img id="flower" src="https://i.imgur.com/u7swIQQ.png" alt="flower">
         <p>The flowershop has beautiful flowers, a huge variety of them.</p>
         <p>You're drawn to some white flowers on the wall.</p>
+        <label for="colors">pick a flower color:</label>
+            <input type="color" list="flowerColors" id="colors" />
+            <datalist id="flowerColors">
+            <option value="#fffff0"></option>
+            <option value="#4169e1"></option>
+            <option value="#A52A2A"></option>
+            <option value="#ffda03"></option>
+            </datalist>
         <p><a href="fdate.html">buy some flowers</a></p>
         <p><a href="back.html">check the back for other flower shipments</a></p>
     </body>
